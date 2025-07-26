@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A food manufacting problem (using data from CSV files), MILP</description>
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="foodcsv.dat" type="data"/>
+      <ref name="foodcsv.mod" type="model"/>
+    </config>
+  </configs>
+</project>

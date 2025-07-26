@@ -1,0 +1,79 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-Name: %Bundle-Name
+Bundle-Vendor: %Bundle-Vendor
+Bundle-ActivationPolicy: lazy
+Bundle-SymbolicName: ilog.odms.cpo.help; singleton:=true
+Bundle-Version: 22.1.2.202412101712
+Eclipse-BundleShape: dir
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: contexts.xml
+SHA-256-Digest: 4GJOFKVKo5QShP9R4/uHYOvLk5T6wlKuSo7DbX3OTY0=
+
+Name: about.html
+SHA-256-Digest: kris/Uzx/f1v/zmaHMn/K0Ypke4x/LgsBpDzfdjmhR0=
+
+Name: plugin.xml
+SHA-256-Digest: DnxHi82UuVC9aw/tU0NB/q5ZGZpLR3oOraWExkbJfuI=
+
+Name: resources/ibm-logo-white.gif
+SHA-256-Digest: wJ8AAnZyREjL3AEejvmuRrt1IcAZEsFr9Q9XZBgrOIQ=
+
+Name: index-refjavacpoptimizer.xml
+SHA-256-Digest: T1WZ8UG/Wbge3gx6shjpy+WRq05TrJS4Cizd9XjyY/A=
+
+Name: resources/e_show_all.gif
+SHA-256-Digest: YvYgbRZdhi4iYoRDr6ZYcYBHBlVjEVKECkgB7ZlYA+A=
+
+Name: toc/refdotnetcpoptimizer.xml
+SHA-256-Digest: kie5CM+UiDsUG00kXSOqnrQcqtu5k4RGWCE7I3BUT28=
+
+Name: resources/e_synch_toc_nav.gif
+SHA-256-Digest: SFCXouFWOQCvHhDqZi6IGFcHVGjqa8w8EEB/5NGY0sM=
+
+Name: doc.zip
+SHA-256-Digest: 4oT2RK94uZVdpK/IXDcggY0CmLhNvsAJQuA+Sj8ijII=
+
+Name: help_home.html
+SHA-256-Digest: YGmMqlrGpGX0uVn3KaVUCvpT6d0H4MZqsylM5ZLxAiI=
+
+Name: resources/book.css
+SHA-256-Digest: lNnZBT2Vqnm/zzcrJvtSzLnbJf8adeeNMPd/mAySzi4=
+
+Name: resources/cpy.gif
+SHA-256-Digest: eoe+oMntuFm1BGTzwN/XuxkQQYlFiGUrddu4cvwUZFc=
+
+Name: resources/e_synch_nav.gif
+SHA-256-Digest: G7QTzL71Sea1eF7NyCRWOGahnm5z0/00vdSMqtLpdx8=
+
+Name: resources/contents_view.gif
+SHA-256-Digest: 40h4o5eTf+SuCjCdCBOKHcIR8h0cCTFpBDLsZ1HqKS8=
+
+Name: index-refdotnetcpoptimizer.xml
+SHA-256-Digest: 5roPTg7GaEfQGWsGaUuW1NwfQfO/DwQlYO5KGlaDqzI=
+
+Name: toc/refcppcpoptimizer.xml
+SHA-256-Digest: VTbtoJR2HYIgKfc8QCXryEq7/r2IqEC1Gm17Z6CT7gY=
+
+Name: index.xml
+SHA-256-Digest: FaMFJUb6JifW3pnhQeOjL82QTS72hbSIQtQvCtzuLgg=
+
+Name: toc.xml
+SHA-256-Digest: Glcj6TjG56WRub+1t4vDHOVmYnO5U1k+d6WMG3C70tU=
+
+Name: plugin.properties
+SHA-256-Digest: NC75njNdcfuTeMrs4NRzO843Pb3zNVlgRzMT7CTagSQ=
+
+Name: index-refcppcpoptimizer.xml
+SHA-256-Digest: YgbAiQasaCMK5ewgHMXl6sGz6P0zkXZL3sSAjZkpSQw=
+
+Name: resources/search_results_view.gif
+SHA-256-Digest: q1b3QkqiGyXo0p3aX3adsGSUeNcxNtWpDmeyX57pH30=
+
+Name: toc/refjavacpoptimizer.xml
+SHA-256-Digest: +syl3r5zJAICqgUdxhdXAx/6tLg3BSpB4KRjPwDxcJ4=
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ilog.odms.ide.opl.feature.nls2"
+      label="%Feature-Name"
+      version="22.1.2.202412101712"
+      provider-name="%Feature-Vendor">
+
+
+   <plugin
+         id="ilog.odms.ide.opl.nl2"
+         download-size="11"
+         install-size="15"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+ 
+   <plugin
+         id="ilog.odms.ide.core.nl2"
+         download-size="19"
+         install-size="41"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="ilog.odms.ide.intro.nl2"
+         download-size="22"
+         install-size="33"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="ilog.odms.ide.opllang.nl2"
+         download-size="12"
+         install-size="17"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="ilog.odms.ide.opllang.remote.nl2"
+         download-size="10"
+         install-size="13"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="ilog.odms.ide.rcp.nl2"
+         download-size="14"
+         install-size="20"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="ilog.odms.ide.samples.opl.nl2"
+         download-size="15076"
+         install-size="22411"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="ilog.odms.ide.ui.nl2"
+         download-size="55"
+         install-size="188"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

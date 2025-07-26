@@ -1,0 +1,57 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2024. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+n = 10000;
+
+SQLiteConnection in("10000x10int.db", "");
+SQLiteConnection out("tablehandler_sqlite.out.db?writeonly=true",
+                     "DROP TABLE IF EXISTS sqliteResults; CREATE TABLE sqliteResults (coli INTEGER, colf REAL, cols TEXT)");
+
+v_int from SQLiteRead(in, "SELECT col0 from data");
+v_float from SQLiteRead(in, "SELECT col1 from data_f");
+v_string from SQLiteRead(in, "SELECT col2 from data_s");
+
+a_int from SQLiteRead(in, "SELECT col1 from data");
+a_float from SQLiteRead(in, "SELECT col1 from data_f");
+a_string from SQLiteRead(in, "SELECT col2 from data_s");
+
+s_int from SQLiteRead(in, "SELECT col1 from data");
+s_float from SQLiteRead(in, "SELECT col1 from data_f");
+s_string from SQLiteRead(in, "SELECT col2 from data_s");
+
+v_tuple from SQLiteRead(in, "SELECT coli, colf, cols from data_m");
+a_tuple from SQLiteRead(in, "SELECT coli, colf, cols from data_m");
+s_tuple from SQLiteRead(in, "SELECT coli, colf, cols from data_m");
+
+v_nested from SQLiteRead(in, "SELECT cols, colf, coli from data_m");
+a_nested from SQLiteRead(in, "SELECT cols, colf, coli from data_m");
+s_nested from SQLiteRead(in, "SELECT cols, colf, coli from data_m");
+
+
+v_int to SQLitePublish(out, "INSERT into sqliteResults VALUES(?, null, null)");
+v_float to SQLitePublish(out, "INSERT into sqliteResults VALUES(null, ?, null)");
+v_string to SQLitePublish(out, "INSERT into sqliteResults VALUES(null, null, ?)");
+
+a_int to SQLitePublish(out, "INSERT into sqliteResults VALUES(?, null, null)");
+a_float to SQLitePublish(out, "INSERT into sqliteResults VALUES(null, ?, null)");
+a_string to SQLitePublish(out, "INSERT into sqliteResults VALUES(null, null, ?)");
+
+s_int to SQLitePublish(out, "INSERT into sqliteResults VALUES(?, null, null)");
+s_float to SQLitePublish(out, "INSERT into sqliteResults VALUES(null, ?, null)");
+s_string to SQLitePublish(out, "INSERT into sqliteResults VALUES(null, null, ?)");
+
+v_tuple to SQLitePublish(out, "INSERT into sqliteResults VALUES(?, ?, ?)");
+a_tuple to SQLitePublish(out, "INSERT into sqliteResults VALUES(?, ?, ?)");
+s_tuple to SQLitePublish(out, "INSERT into sqliteResults VALUES(?, ?, ?)");
+
+v_nested to SQLitePublish(out, "INSERT into sqliteResults VALUES(?3, ?2, ?1)");
+a_nested to SQLitePublish(out, "INSERT into sqliteResults VALUES(?3, ?2, ?1)");
+s_nested to SQLitePublish(out, "INSERT into sqliteResults VALUES(?3, ?2, ?1)");

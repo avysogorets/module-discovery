@@ -1,0 +1,55 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2024. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+n = 5;
+
+CSVConnection in("tablehandler_csv.in", "");
+CSVConnection out("tablehandler_csv.out?outputOnly=true", "");
+
+v_int from CSVRead(in, "0");
+v_float from CSVRead(in, "1");
+v_string from CSVRead(in, "2");
+
+a_int from CSVRead(in, "0");
+a_float from CSVRead(in, "1");
+a_string from CSVRead(in, "2");
+
+s_int from CSVRead(in, "0");
+s_float from CSVRead(in, "1");
+s_string from CSVRead(in, "2");
+
+v_tuple from CSVRead(in, "0,1,2");
+a_tuple from CSVRead(in, "0,1,2");
+s_tuple from CSVRead(in, "0,1,2");
+
+v_nested from CSVRead(in, "2,1,0");
+a_nested from CSVRead(in, "2,1,0");
+s_nested from CSVRead(in, "2,1,0");
+
+v_int to CSVPublish(out, "");
+v_float to CSVPublish(out, "");
+v_string to CSVPublish(out, "");
+
+a_int to CSVPublish(out, "");
+a_float to CSVPublish(out, "");
+a_string to CSVPublish(out, "");
+
+s_int to CSVPublish(out, "");
+s_float to CSVPublish(out, "");
+s_string to CSVPublish(out, "");
+
+v_tuple to CSVPublish(out, "");
+a_tuple to CSVPublish(out, "");
+s_tuple to CSVPublish(out, "");
+
+v_nested to CSVPublish(out, "");
+a_nested to CSVPublish(out, "");
+s_nested to CSVPublish(out, "");

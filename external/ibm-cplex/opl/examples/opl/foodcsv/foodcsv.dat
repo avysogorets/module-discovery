@@ -1,0 +1,89 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation  2024. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+// Data for the foodcsv.mod model.
+// Here we read data from CSV files and write results to CSV files in
+// various ways.
+// CSV files are read and written through instances of CSVConnection.
+// A connection is created via
+//    CSVConnection NAME(URL, HEADER)
+// where
+//  NAME    is the name of the connection (csv1, csv2, produce, etc. here)
+//  URL     is the name of the CSV file. This name may have url encoded
+//          arguments that control details about the file.
+//  HEADER  If the connection is used for output then this string contains
+//          the header that is written to the output file before the *first*
+//          data is written to the connection. If this string is empty then
+//          no header is written.
+// The supported arguments for the URL are
+//  firstIsHeader:    For input files specify that the first line in the file
+//                    is a header (contains column names)
+//  inputSeparator:   The characters that separate fields in input files.
+//                    Each character in this string is considered a field
+//                    separator. The default is ",;\t", i.e., comman,
+//                    semicolon, or tab.
+//  decimalPoint:     The character to use as decimal point. This is only
+//                    relevant for input. For input the decimal point is
+//                    always a dot. Default is dot.
+//  comment:          A single character. Lines starting with this character
+//                    are ignored.
+//  outputSeperator:  this string is used to separate fields when writing to
+//                    a connection. Default is comma.
+//  outputOnly:       If true then the connection is used for output only.
+//                    The connection will not attempt to open the file for
+//                    reading (which could result in a "file not found" error
+//                    in case the file is only created during result output)
+//  append:           If true then output files are appended to, otherwise
+//                    (the default) they are overrriden.
+
+
+NbMonths   = 6;
+
+
+// Reading data from a CSV file
+// Data is read from a connection using a statement like
+//    data from CSVRead(NAME, FIELDS)
+// where
+//  data   is the name of the data element to read
+//  NAME   is the name of the connection to use (as created with CSVConnection)
+//  FIELDS is a string that selects the fields to read. This is a
+//         comma-separated list of field selectors. A field selector is either
+//         a 0-based column index or a column name.
+//         If this string is empty then all fields are selected.
+//         If a non-default inputSeparator was set for the connection then
+//         the field selectors must be separated by the first character in
+//         the inputSeparator instead of comma.
+CSVConnection csv1("products.csv?firstIsHeader=true", "");
+CSVConnection csv2("cost.csv?firstIsHeader=true", "");
+
+Products from CSVRead(csv1, "Product Name");
+Cost from CSVRead(csv2, "");
+
+// Writing data to CSV files.
+// Data is written to a connection using a statement like
+//    data to CSVPublish(NAME, IGNORED)
+// where
+//  data     is the name of the data element to be written
+//  NAME     is the name of the connection to use (as created with
+//           CSVConnection)
+//  IGNORED  is a string that is currently ignored. Use the empty string to
+//           be compatible with potential future extensions.
+// Note that here we output Buy and Store to the *same* csv files in two
+// steps: first Buy is writen and then Store is appended.
+CSVConnection produce("produce.csv?outputOnly=true", "");
+CSVConnection use("use.csv?outputOnly=true&outputSeparator=|", "");
+CSVConnection buy("buystore.csv?outputOnly=true", "Buy");
+CSVConnection store("buystore.csv?outputOnly=true&append=true", "Store");
+
+Produce to CSVPublish(produce, "");
+Use to CSVPublish(use, "");
+Buy to CSVPublish(buy, "");
+Store to CSVPublish(store, "");

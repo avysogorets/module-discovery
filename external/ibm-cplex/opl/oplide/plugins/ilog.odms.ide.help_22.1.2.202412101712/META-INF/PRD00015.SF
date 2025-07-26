@@ -1,0 +1,81 @@
+Signature-Version: 1.0
+Created-By: 17.0.9 (IBM Corporation)
+SHA-256-Digest-Manifest: W12Cx5ipO/iRqnUSZ7Z+DhwUXrvf2ERYUZMLbcs1EaI=
+SHA-256-Digest-Manifest-Main-Attributes: KiVyOQVJWkrhXs/4LXMaUuwZNq17UpH
+ v3jxVoFIGvGM=
+
+Name: contexts.xml
+SHA-256-Digest: y4CoAd5cazVRQzgHQqDGhikrgBzZ7XqvUi9RnxUISTI=
+
+Name: plugin.xml
+SHA-256-Digest: 9BKEbcRjyryc6izEXmPIo/wqkHSz1ZpKjARwnJ/FUW0=
+
+Name: resources/ibm-logo-white.gif
+SHA-256-Digest: 8Af5ZeR3yeWIOt4O53CnvK+1IEYVCg7JVfWj4x0bMs4=
+
+Name: index-refdotnetopl.xml
+SHA-256-Digest: Y45nRpJWkIQCSWAqnwyPNFSqN034rz7LGaQSL2y6pLU=
+
+Name: resources/e_synch_toc_nav.gif
+SHA-256-Digest: dbbkAp1tJTGBE0LlRQjAJV8nq3VzBCZl+1xg25dmLfg=
+
+Name: doc.zip
+SHA-256-Digest: Bc5SYhe6JUMxvnzoAUPdXOLp86MXzh/PxAD7MHHP5TE=
+
+Name: help_home.html
+SHA-256-Digest: ELEmojzCM37Z/Q1CAAB5jekN0iRKh3aX9sha7Q9tvQ0=
+
+Name: resources/cpy.gif
+SHA-256-Digest: D0fKqXYOhdMdw1JFNqTAh59EJLwbJvl/kjzKxkUUR40=
+
+Name: resources/e_synch_nav.gif
+SHA-256-Digest: i292/Z4yWeCBqk0K7Qsk5rEUHpq5L2LPqlVQQ0g7Yh0=
+
+Name: toc/refdotnetopl.xml
+SHA-256-Digest: w21k7bMCV2oag8dB2r5OjXrxsvlQSf3wpgrekt/wXt0=
+
+Name: plugin.properties
+SHA-256-Digest: nb/DhbCx2P5Swwgh9SHkTw0j5z/ynqbFYK3WW+nw+eo=
+
+Name: indexopl.xml
+SHA-256-Digest: S+jFn0+NnGqf0ZT7WcNwZ4UvMRfi0TgKbohtyheOxaw=
+
+Name: resources/search_results_view.gif
+SHA-256-Digest: gKz/AQdro+9YEtAHtRQTM+nrY1NT6WSHeqRiy7Wlzzo=
+
+Name: about.html
+SHA-256-Digest: zy3s8+xI1VQSSTizyu9jaAPHWIyaazeQXmeTpN9bTLg=
+
+Name: refjs-index.xml
+SHA-256-Digest: RzeMfFdLcstPBV85YiAdbT+v9KzXS7n5UAehorHWNYk=
+
+Name: resources/e_show_all.gif
+SHA-256-Digest: tXwP6aoDgsNtspEQ5xv3Fyg+U/5YbzH7cIRso2qnWyw=
+
+Name: toc/refjavaopl.xml
+SHA-256-Digest: tfPhz3235i393GBBlhs9YOPJjouuHBQjZ0sRS2W3LCs=
+
+Name: resources/book.css
+SHA-256-Digest: J+Di1hVuEs/2mJ8qpRESBKyUP1CGtkHGfYfKbXA4Otg=
+
+Name: external_contexts.xml
+SHA-256-Digest: RNDMCRKaOaStOI6FQTqVk4WwSOEAJvYMIpbsRaD0gMk=
+
+Name: resources/contents_view.gif
+SHA-256-Digest: mKEVaeyx+SPKbTsLSclijcSi3tXh+dYYXg9+FTlA4OU=
+
+Name: toc/refcppopl.xml
+SHA-256-Digest: VuWaIovnM0h3+tud2DmhIzmOFt/Cyq7sWhEdviau7H4=
+
+Name: index.xml
+SHA-256-Digest: /j2ccWUlixKpJJD6bfgy5wm1IC4o2M8uNb+Yazu1StU=
+
+Name: toc.xml
+SHA-256-Digest: 4BND3m3nRjUz66LWCTF4PTJfkiAkw1l3XyNWa+MEvyg=
+
+Name: index-refjavaopl.xml
+SHA-256-Digest: gchVcwm4wv8J7kz9XFAbU8k2UJ+38bOWfLLLyh8VH10=
+
+Name: toc/refjsopl.xml
+SHA-256-Digest: eEXZnMdmy0O05wERgKyaZdyaSPlRZra5epHUyb509Is=
+

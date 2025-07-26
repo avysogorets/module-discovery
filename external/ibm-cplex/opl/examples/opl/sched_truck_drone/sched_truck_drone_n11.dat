@@ -1,0 +1,32 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation  2024. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+/*
+ * This sample data file is an adaptation of the dataset "uniform-1-n11.txt" available
+ * at: https://github.com/pcbouman-eur/TSP-D-Instances
+ */
+
+truckSpeed = 1.0;
+droneSpeed = 0.5;
+numberOfNodes = 11;
+
+locations = [<0.8172268241831585, 0.6284331187597952, depot>,   /* The Depot */
+			/*The Locations (x_coor y_coor name)*/
+			<73.0, 52.0, loc1>,
+			<61.0, 46.0, loc2>,
+			<44.0, 63.0, loc3>,
+			<74.0, 15.0, loc4>,
+			<23.0, 23.0, loc5>,
+			<9.0, 80.0, loc6>,
+			<51.0, 65.0, loc7>,
+			<15.0, 97.0, loc8>,
+			<9.0, 74.0, loc9>,
+			<56.0, 84.0, loc10>];

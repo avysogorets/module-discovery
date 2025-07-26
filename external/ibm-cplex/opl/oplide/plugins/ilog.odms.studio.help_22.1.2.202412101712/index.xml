@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <entry keyword="orientation guide for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/orientation_intro.html#orientation_intro" title="Orientation Guide"/>
+  </entry>
+  <entry keyword="new user to CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/new_to_cos.html#new_to_cos" title="Completely new to CPLEX Optimization Studio?"/>
+  </entry>
+  <entry keyword="CPLEX Optimization Studio, introduction for a complete beginner">
+    <topic href="Optimization_Studio/orientation_guide/topics/new_to_cos.html#new_to_cos" title="Completely new to CPLEX Optimization Studio?"/>
+  </entry>
+  <entry keyword="overview (brief) of CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/overview_cos.html#briefoverviewofcplexoptimizationstudio" title="Brief overview of CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="CPLEX Optimization Studio, brief overview">
+    <topic href="Optimization_Studio/orientation_guide/topics/overview_cos.html#briefoverviewofcplexoptimizationstudio" title="Brief overview of CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="analyzing a simple OPL model, production.mod">
+    <topic href="Optimization_Studio/orientation_guide/topics/analyze_model.html#analyzingasimpleoplmodel" title="Analyzing a simple OPL model"/>
+  </entry>
+  <entry keyword="OPL model production.mod, exercise for beginners">
+    <topic href="Optimization_Studio/orientation_guide/topics/analyze_model.html#analyzingasimpleoplmodel" title="Analyzing a simple OPL model"/>
+  </entry>
+  <entry keyword="first steps in the IDE">
+    <topic href="Optimization_Studio/orientation_guide/topics/firststeps_ide.html#firststepswiththeide" title="First steps with the IDE"/>
+  </entry>
+  <entry keyword="running a simple model in the IDE">
+    <topic href="Optimization_Studio/orientation_guide/topics/run_model.html#runningthemodelintheide" title="Running a model in the IDE"/>
+  </entry>
+  <entry keyword="IDE, running a simple model">
+    <topic href="Optimization_Studio/orientation_guide/topics/run_model.html#runningthemodelintheide" title="Running a model in the IDE"/>
+  </entry>
+  <entry keyword="beginners documentation for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/discovering_cos.html#discovering_cos" title="Discovering CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="tutorials for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/familiar_with_cos.html#familiar_with_cos" title="Becoming familiar with CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="advanced documentation for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/orientation_guide/topics/advanced_features.html#advanced_features" title="Advanced features"/>
+  </entry>
+  <entry keyword="ports supported">
+    <topic href="Optimization_Studio/topics/COS_intro_features.html#descriptiveTopic1272990032229" title="Introduction"/>
+  </entry>
+  <entry keyword="OPL changes in V12.9.0">
+    <topic href="OPL_Studio/oplrelnotes/topics/opl_relnotes_129.html#topic_qw4_y4y_lw" title="Release notes for IDE and OPL V12.9.0"/>
+  </entry>
+  <entry keyword="IDE changes in V12.9.0">
+    <topic href="OPL_Studio/oplrelnotes/topics/opl_relnotes_129.html#topic_qw4_y4y_lw" title="Release notes for IDE and OPL V12.9.0"/>
+  </entry>
+  <entry keyword="parameter">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newParameters.html#CPLEXReleaseNotesV12100newParameters" title="New parameters in CPLEX V12.10.0 "/>
+    </entry>
+  </entry>
+  <entry keyword="error code">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newErrorCodes.html#CPLEXReleaseNotesV12100newErrorCodes" title="New error codes in CPLEX V12.10.0"/>
+    </entry>
+  </entry>
+  <entry keyword="error message">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newErrorCodes.html#CPLEXReleaseNotesV12100newErrorCodes" title="New error codes in CPLEX V12.10.0"/>
+    </entry>
+  </entry>
+  <entry keyword="Callable Library (C API)">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newCapi.html#CPLEXReleaseNotesV12910newCapi" title="New features in the Callable Library (C API) of CPLEX V12.10.0 "/>
+    </entry>
+  </entry>
+  <entry keyword="C++ API">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newCplusplusAPI.html#CPLEXReleaseNotesV12100newCplusplusAPI" title="New features in the C++ API of CPLEX V12.10.0 "/>
+    </entry>
+  </entry>
+  <entry keyword="Java API">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newJavaAPI.html#CPLEXReleaseNotesV12100newJavaAPI" title="New features in the Java API of CPLEX V12.10.0 "/>
+    </entry>
+  </entry>
+  <entry keyword=".NET API">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newDotNetAPI.html#CPLEXReleaseNotesV12100newDotNetAPI" title="New features in the .NET API of CPLEX V12.10.0 "/>
+    </entry>
+  </entry>
+  <entry keyword="Python versionsPython">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/newPythonAPI.html#CPLEXReleaseNotesV12100newPythonAPI" title="New features in the Python API of CPLEX V12.10.0 "/>
+    </entry>
+  </entry>
+  <entry keyword="API">
+    <entry keyword="CPLEX V12.10.0 release notes">
+      <topic href="CPLEX/ReleaseNotes/topics/releasenotes12100/convertAPI.html#CPLEXReleaseNotesV12100convertAPI" title="Conversion notes for CPLEX V12.10.0 "/>
+    </entry>
+  </entry>
+  <entry keyword="KPIs">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_changes_kpi.html#changes-kpi" title="Key Performance Indicators (KPIs)"/>
+  </entry>
+  <entry keyword="KPI">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_changes_kpi.html#changes-kpi" title="Key Performance Indicators (KPIs)"/>
+  </entry>
+  <entry keyword="default search strategy">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_changes_workers.html#changes-workers" title="Default search strategy"/>
+  </entry>
+  <entry keyword="workers">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_changes_workers.html#changes-workers" title="Default search strategy"/>
+  </entry>
+  <entry keyword="search log">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_changes_searchlog.html#changes-searchlog" title="New search log for interval-based decisions"/>
+    <entry keyword="interval-based decisions">
+      <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_changes_searchlog.html#changes-searchlog" title="New search log for interval-based decisions"/>
+    </entry>
+  </entry>
+  <entry keyword="C++">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_cpp.html#cpp.1290" title="C++ users"/>
+  </entry>
+  <entry keyword="java">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_java.html#java.1290" title="Java users"/>
+  </entry>
+  <entry keyword="java limitation">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_java.html#java.1290" title="Java users"/>
+  </entry>
+  <entry keyword="C#">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_cSharp.html#csharp.1280" title="C# users"/>
+  </entry>
+  <entry keyword="C sharp">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_cSharp.html#csharp.1280" title="C# users"/>
+  </entry>
+  <entry keyword="Python">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_python.html#docplex.1280" title="Python users"/>
+  </entry>
+  <entry keyword="DOcplex">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_python.html#docplex.1280" title="Python users"/>
+  </entry>
+  <entry keyword=".NET">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_dotnet.html#dotnet.1290" title=" .NET users"/>
+  </entry>
+  <entry keyword=".NET limitation">
+    <topic href="CP_Optimizer/Release_notes/topics/relnotes_V1290_dotnet.html#dotnet.1290" title=" .NET users"/>
+  </entry>
+  <entry keyword="PVU licensing">
+    <topic href="Optimization_Studio/topics/COS_license_metrics.html#dhdjccvt" title="License metrics"/>
+  </entry>
+  <entry keyword="licensing requirements for CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/topics/COS_license_metrics.html#dhdjccvt" title="License metrics"/>
+  </entry>
+  <entry keyword="Installing CPLEX Optimization Studio">
+    <topic href="Optimization_Studio/topics/COS_installing.html#installinginanotherlanguage" title="Installing CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="Installing on UNIXInstalling on Linux">
+    <topic href="Optimization_Studio/topics/COS_installing.html#installinginanotherlanguage" title="Installing CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="Installing CPLEX Optimization Studio in another language">
+    <topic href="Optimization_Studio/topics/COS_installinginanotherlanguage.html#installinginanotherlanguage" title="Installing in another language"/>
+  </entry>
+  <entry keyword="Installation">
+    <entry keyword="silent installation">
+      <topic href="Optimization_Studio/topics/td_silent_install.html#Xf69ISoU" title="Silent installation of CPLEX Optimization Studio"/>
+    </entry>
+    <entry keyword="uninstalling">
+      <topic href="Optimization_Studio/topics/td_uninstall.html#rkrP97qB" title="Uninstalling CPLEX Optimization Studio"/>
+    </entry>
+  </entry>
+  <entry keyword="Silent installation">
+    <topic href="Optimization_Studio/topics/td_silent_install.html#Xf69ISoU" title="Silent installation of CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="Uninstall">
+    <topic href="Optimization_Studio/topics/td_uninstall.html#rkrP97qB" title="Uninstalling CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="Remove application">
+    <topic href="Optimization_Studio/topics/td_uninstall.html#rkrP97qB" title="Uninstalling CPLEX Optimization Studio"/>
+  </entry>
+  <entry keyword="IBM Information Center">
+    <entry keyword="Accessibility">
+      <topic href="Optimization_Studio/topics/COS_infocenter_accessibility.html#descriptiveTopic1305108843934" title="Accessibility in the online IBM Knowledge Center documentation"/>
+    </entry>
+  </entry>
+  <entry keyword="Accessibility">
+    <topic href="Optimization_Studio/topics/COS_infocenter_accessibility.html#descriptiveTopic1305108843934" title="Accessibility in the online IBM Knowledge Center documentation"/>
+    <topic href="Optimization_Studio/topics/COS_accessibility.html#descriptiveTopic1305109356245" title="CPLEX Optimization Studio accessibility"/>
+    <entry keyword="keyboard shortcuts">
+      <topic href="Optimization_Studio/topics/COS_accessibility.html#descriptiveTopic1305109356245" title="CPLEX Optimization Studio accessibility"/>
+    </entry>
+  </entry>
+</index>

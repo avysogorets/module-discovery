@@ -1,0 +1,249 @@
+[all initial code
+Micha Elsner <melsner@cs.brown.edu>**20081030195229] 
+[WeightMatrix: logarithmic weights
+Micha Elsner <melsner@cs.brown.edu>**20081030195917] 
+[Greedy: all thresholds based on wdiff vals (allows log weights)
+Micha Elsner <melsner@cs.brown.edu>**20081030195938] 
+[LPSolver: ILP and (useless) lazy solver
+Micha Elsner <melsner@cs.brown.edu>**20081031141854] 
+[common: approxEq macro that actually works
+Micha Elsner <melsner@cs.brown.edu>**20081031141956] 
+[WeightMatrix: print at fixed width
+Micha Elsner <melsner@cs.brown.edu>**20081031142012] 
+[testLP: interface for ILP
+Micha Elsner <melsner@cs.brown.edu>**20081031142030] 
+[LPSolver,testLP: lazy LP and ILP classes
+Micha Elsner <melsner@cs.brown.edu>**20081031164746] 
+[LPSolver: comment was wrong, fixed
+Micha Elsner <melsner@cs.brown.edu>**20081107151604] 
+[classify.py: naive bayes system
+Micha Elsner <melsner@cs.brown.edu>**20081107151702] 
+[genFeatureless/gaussians: refactored, new data generation
+Micha Elsner <melsner@cs.brown.edu>**20081107151724] 
+[scores: guard for 0 division
+Micha Elsner <melsner@cs.brown.edu>**20081107151814] 
+[testGreedy: usage msg was wrong
+Micha Elsner <melsner@cs.brown.edu>**20081107151829] 
+[LPSolver: for LazyLP, allows generation of fraction of violated constraints
+Micha Elsner <melsner@cs.brown.edu>**20081111193556] 
+[greedy solver main
+Micha Elsner <melsner@cs.brown.edu>**20081202202809] 
+[typographical/commentary
+Micha Elsner <melsner@cs.brown.edu>**20081204193139] 
+[BOEM local search (naive method, not fully tested)
+Micha Elsner <melsner@cs.brown.edu>**20081204193201] 
+[sdp file writer
+Micha Elsner <melsner@cs.brown.edu>**20081211204306] 
+[SDP solver first pass
+Micha Elsner <melsner@cs.brown.edu>**20081211212000
+ I think this is wrong, because I suspect I don't understand the file format well enough. Need to talk over with WS. Please don't use this version for anything!
+] 
+[SDPSolver (and related): first-pass DSDP solver code
+Micha Elsner <melsner@cs.brown.edu>**20081216222353] 
+[SDPSolver: factored
+Micha Elsner <melsner@cs.brown.edu>**20081216225449] 
+[SDPSolver: lazy, lazy-sum sdp solvers
+Micha Elsner <melsner@cs.brown.edu>**20081218194012] 
+[testSDP driver
+Micha Elsner <melsner@cs.brown.edu>**20081218194038] 
+[BOEM: now optionally takes initial clustering from weight matrix
+Micha Elsner <melsner@cs.brown.edu>**20081219184856] 
+[SDP: lazy solvers now use iteration counter
+Micha Elsner <melsner@cs.brown.edu>**20081219184916] 
+[chainedSolvers: driver that uses different solvers in sequence
+Micha Elsner <melsner@cs.brown.edu>**20081219184945] 
+[timingRuns,evaluateExperiments,plotExperiments: first-draft hogwash experimental framework... pretty hacky right now
+Micha Elsner <melsner@cs.brown.edu>**20081219185036] 
+[Classifier code factored into Classifiers, maxent support in Megam, MaxEntDots
+Micha Elsner <melsner@cs.brown.edu>**20081220212127] 
+[timingRuns, evalExperiments: minor misc bugfixes
+Micha Elsner <melsner@cs.brown.edu>**20081220212359] 
+[timingRuns: setup uses gauss data and max-ent
+Micha Elsner <melsner@cs.brown.edu>**20081220212459] 
+[genGaussians: samples variance
+Micha Elsner <melsner@cs.brown.edu>**20081220212556] 
+[maxentdots: docstring
+Micha Elsner <melsner@cs.brown.edu>**20081220213824] 
+[readme: rst readme doc, makefile support for compiling html version
+Micha Elsner <melsner@cs.brown.edu>**20081221165017] 
+[colorMat: imitates matlab pcolor of matrix
+Micha Elsner <melsner@cs.brown.edu>**20081222162129] 
+[Fixed bug in Pivot::markNode
+ws@cs.brown.edu**20081222185834] 
+[WeightMatrix: write records the matrix size
+Micha Elsner <melsner@cs.brown.edu>**20081222192853] 
+[Made matrices colorful with colorbar legend too
+ws@cs.brown.edu**20081222193422] 
+[added printing hack to chainedSolvers
+ws@cs.brown.edu**20081222193513] 
+[Fixed bug in SumLazySDP solver
+ws@cs.brown.edu**20081222235630] 
+[Created (commented out) hacky code for printing intermediate SDP matrices to files
+ws@cs.brown.edu**20081223000014] 
+[Bugfix: chainedSolvers no longer overwrites input matrix
+ws@cs.brown.edu**20081223011610] 
+[chainedSolvers now prints out objective value after each solver
+ws@cs.brown.edu**20081223011724] 
+[Tuned parameters for SDP. Very minor improvement in runtime (30% or so)
+ws@cs.brown.edu**20081223034614] 
+[Fixed silly bug in objective value computation for debugging in chainedSolvers
+ws@cs.brown.edu**20081223050203] 
+[increased number of default iterations for lazy sdp solvers
+ws@cs.brown.edu**20081223050256] 
+[colorMat: now can read a data file and infer the clustering
+Micha Elsner <melsner@cs.brown.edu>**20090108210949] 
+[common: intToString
+Micha Elsner <melsner@cs.brown.edu>**20090111182003] 
+[New SDP2 based on ConicBundle. Improved LazyLP. Added trivial-lower-bound to chainedSolvers
+ws@cs.brown.edu**20090113013246] 
+[Classifiers: points can have string-like feature names
+Micha Elsner <melsner@cs.brown.edu>**20090215003819] 
+[Remove -lg2c from makefile
+ws@cs.brown.edu**20090209201927] 
+[Improved SDPSolverTwo. Added new mode to SDPSolver[One] to disable non-negativity constraints. A few changes to chainedSolver.
+ws@cs.brown.edu**20090213015551] 
+[Added support for a simpler random-errors model
+ws@cs.brown.edu**20090213020122] 
+[New script to generate all-singletons clusterings
+ws@cs.brown.edu**20090213020215] 
+[Added simulated annealing.
+ws@cs.brown.edu**20090213050928] 
+[chainedSolvers: allows limited functionality in 64bit
+Micha Elsner <melsner@cs.brown.edu>**20090216205506] 
+[distributedExperiments/DistributedExperiment: hogwash support for running experiments on the grid
+ws@cs.brown.edu**20090216205636] 
+[distributedExperiments: support for 64-bit
+Micha Elsner <melsner@cs.brown.edu>**20090216210201] 
+[correlation.tex: vague skeletal text of part of paper, maybe
+Micha Elsner <melsner@cs.brown.edu>**20090217195423] 
+[Classifiers/classify/evaluate: refactor to insulate numpy imports from evaluation code, making scripts 64-bit safe
+ws@cs.brown.edu**20090218164144] 
+[Classifiers/classify/evaluate: merged changes, new support for large-scale classification tasks via Hogwash
+Micha Elsner <melsner@cs.brown.edu>**20090218164447] 
+[SDPSolverTwo: termination conditions
+ws@cs.brown.edu**20090220180305] 
+[correlation.tex: have some actual results for newsgroups now
+Micha Elsner <melsner@cs.brown.edu>**20090221235038] 
+[paper: new content incl. illustration
+Micha Elsner <melsner@cs.brown.edu>**20090222225031] 
+[distributed[Stuff]: lots of new experimental/scoring tools
+Micha Elsner <melsner@cs.brown.edu>**20090222225123] 
+[chainedSolvers: log weight cmd line switch
+Micha Elsner <melsner@cs.brown.edu>**20090222225151] 
+[Greedy: supports running on identity perm
+Micha Elsner <melsner@cs.brown.edu>**20090222225221] 
+[evaluate: support for log objective and some chat stuff
+Micha Elsner <melsner@cs.brown.edu>**20090222225314] 
+[WeightMatrix: log weights no longer take log(0)
+Micha Elsner <melsner@cs.brown.edu>**20090222231609] 
+[WeightMatrix: log weights no longer take log(0)
+Micha Elsner <melsner@cs.brown.edu>**20090222225249] 
+[Increased precision of SDP LB output
+ws@cs.brown.edu**20090222233009] 
+[WeightMatrix: wtf? spurious format changes only... just want to make darcs shut up
+Micha Elsner <melsner@cs.brown.edu>**20090223153316] 
+[megam: mostly unused features of dubious utility
+Micha Elsner <melsner@cs.brown.edu>**20090223153412] 
+[naacl2009 bib style file
+Micha Elsner <melsner@cs.brown.edu>**20090224012946] 
+[correlation.tex: lots of chat stuff added, but more to go...
+Micha Elsner <melsner@cs.brown.edu>**20090224012958] 
+[Added LP feasible solution output to statistics pseudo-solver
+ws@cs.brown.edu**20090224034416] 
+[Some SDP and LP stuff in paper.
+ws@cs.brown.edu**20090224041347] 
+[Minor changes to help it latex successfully
+ws@cs.brown.edu**20090224041643] 
+[bllip.bib: so many papers, so little time
+Micha Elsner <melsner@cs.brown.edu>**20090224231311] 
+[correlation.tex: new content mostly re chat
+Micha Elsner <melsner@cs.brown.edu>**20090224231335] 
+[Forced figures to be with text rather than in a column by themselves
+ws@cs.brown.edu**20090224234117] 
+[Much improved SDP and LP sections. Various other scattered changes.
+ws@cs.brown.edu**20090224234234] 
+[correlation.tex: tables updated to use percentile-of-bounds
+Micha Elsner <melsner@cs.brown.edu>**20090225012612] 
+[bllip.bib: more cites
+Micha Elsner <melsner@cs.brown.edu>**20090225193004] 
+[correlation.tex: lots of stuff
+Micha Elsner <melsner@cs.brown.edu>**20090225193018] 
+[64-bit LP works now.
+ws@cs.brown.edu**20090225231347] 
+[added limits.h so it stops complaining about LONG_MAX
+ws@cs.brown.edu**20090226021132] 
+[Added a bunch of refs to bllip.bib
+ws@cs.brown.edu**20090226023123] 
+[Fixed a lot of citations and misc. other changes
+ws@cs.brown.edu**20090226023228] 
+[Changed LazyLP constant from 0.6 to 0.5 because they both work about as well and 0.5 is more principled.
+ws@cs.brown.edu**20090226023429] 
+[Added first/best/vote algorithm pseudocode.
+ws@cs.brown.edu**20090226205237] 
+[Added Gionis07
+ws@cs.brown.edu**20090227023410] 
+[Worked on greedy algs section
+ws@cs.brown.edu**20090227023449] 
+[correlation.tex: minor edits
+Micha Elsner <melsner@cs.brown.edu>**20090228213510] 
+[tex: most text in, time to cut stuff
+Micha Elsner <melsner@cs.brown.edu>**20090301230135] 
+[paper: ruthless cutting to get under page limit
+Micha Elsner <melsner@cs.brown.edu>**20090302004947] 
+[paper: really minor
+Micha Elsner <melsner@cs.brown.edu>**20090302011728] 
+[Misc small changes.
+ws@cs.brown.edu**20090303013817] 
+[Fixed dashes
+ws@cs.brown.edu**20090303020303] 
+[Rewrote the discussion of the Lower bound/upper bound gaps to put us in a better light
+ws@cs.brown.edu**20090303020341] 
+[Footnotes after puncuation except dashes. End-quote after period.
+ws@cs.brown.edu**20090303021951] 
+[paper: minor but over space now
+Micha Elsner <melsner@cs.brown.edu>**20090303193018] 
+[paper: now at page limit again
+Micha Elsner <melsner@cs.brown.edu>**20090303221106] 
+[Minor changes to paper
+ws@cs.brown.edu**20090306005617] 
+[paper: now with acknowledgements, authors and d/l link
+Micha Elsner <melsner@cs.brown.edu>**20090407212322] 
+[paper: stupid 'order of magnitude' comment fixed
+Micha Elsner <melsner@cs.brown.edu>**20090408205106] 
+[Changes to scripts to adapt them to some previous changes.
+ws@cs.brown.edu**20090407223205] 
+[Added a comment to BOEM.cc
+ws@cs.brown.edu**20090407223505] 
+[Tweaks to the lazy mode in the SDPSolver2, especially the triangle inequality one.
+ws@cs.brown.edu**20090407224140
+ These changes have no effect on the non-lazy modes used in our workshop paper.
+ 
+] 
+[formatted a stray "Pivot" using algorithm font
+ws@cs.brown.edu**20090408011402] 
+[checkLinks: quick exe program
+Micha Elsner <melsner@cs.brown.edu>**20090415141814] 
+[Makefile handle missing LP/SDP solvers better
+ws@cs.brown.edu**20090516023320] 
+[Added "read" to chainedSolvers. Losts of changes to comments.
+ws@cs.brown.edu**20090516023457] 
+[Fiddled with section headings
+ws@cs.brown.edu**20090518231230] 
+[bin and lib dirs (empty)
+Micha Elsner <melsner@cs.brown.edu>**20090526154716] 
+[maxentnewsgroups: newsgroups classifier
+Micha Elsner <melsner@cs.brown.edu>**20090526181356] 
+[newsgroup tools
+Micha Elsner <melsner@cs.brown.edu>**20090526181618] 
+[lsa: newsgroups
+Micha Elsner <melsner@cs.brown.edu>**20090526181841] 
+[sparseMat: translate to matlab
+Micha Elsner <melsner@cs.brown.edu>**20090526182634] 
+[correlationclusteringdata: adaptor for chat data
+Micha Elsner <melsner@cs.brown.edu>**20090526183854] 
+[evaluate: uses log properly now
+Micha Elsner <melsner@cs.brown.edu>**20090526185552] 
+[readme: lots of readme
+Micha Elsner <melsner@cs.brown.edu>**20090526190034] 
+[readme.rst : minor
+Micha Elsner <melsner@cs.brown.edu>**20090526191105] 

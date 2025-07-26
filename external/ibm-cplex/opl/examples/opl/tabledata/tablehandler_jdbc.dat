@@ -1,0 +1,61 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2024. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+n = 10000;
+
+JDBCConnection in("jdbc:sqlite:${ILO_JDBC_TEST}/10000x10int.db",
+                  "");
+JDBCConnection out("jdbc:sqlite:tablehandler_jdbc.out.db",
+                   "DROP TABLE IF EXISTS jdbcResults; CREATE TABLE jdbcResults (coli INTEGER, colf REAL, cols TEXT)");
+
+v_int from JDBCRead(in, "SELECT col0 from data");
+v_float from JDBCRead(in, "SELECT col1 from data_f");
+v_string from JDBCRead(in, "SELECT col2 from data_s");
+
+a_int from JDBCRead(in, "SELECT col1 from data");
+a_float from JDBCRead(in, "SELECT col1 from data_f");
+a_string from JDBCRead(in, "SELECT col2 from data_s");
+
+s_int from JDBCRead(in, "SELECT col1 from data");
+s_float from JDBCRead(in, "SELECT col1 from data_f");
+s_string from JDBCRead(in, "SELECT col2 from data_s");
+
+v_tuple from JDBCRead(in, "SELECT coli, colf, cols from data_m");
+a_tuple from JDBCRead(in, "SELECT coli, colf, cols from data_m");
+s_tuple from JDBCRead(in, "SELECT coli, colf, cols from data_m");
+
+v_nested from JDBCRead(in, "SELECT cols, colf, coli from data_m");
+a_nested from JDBCRead(in, "SELECT cols, colf, coli from data_m");
+s_nested from JDBCRead(in, "SELECT cols, colf, coli from data_m");
+
+
+
+v_int to JDBCPublish(out, "INSERT into jdbcResults VALUES(?, null, null)");
+v_float to JDBCPublish(out, "INSERT into jdbcResults VALUES(null, ?, null)");
+v_string to JDBCPublish(out, "INSERT into jdbcResults VALUES(null, null, ?)");
+
+a_int to JDBCPublish(out, "INSERT into jdbcResults VALUES(?, null, null)");
+a_float to JDBCPublish(out, "INSERT into jdbcResults VALUES(null, ?, null)");
+a_string to JDBCPublish(out, "INSERT into jdbcResults VALUES(null, null, ?)");
+
+s_int to JDBCPublish(out, "INSERT into jdbcResults VALUES(?, null, null)");
+s_float to JDBCPublish(out, "INSERT into jdbcResults VALUES(null, ?, null)");
+s_string to JDBCPublish(out, "INSERT into jdbcResults VALUES(null, null, ?)");
+
+v_tuple to JDBCPublish(out, "INSERT into jdbcResults VALUES(?, ?, ?)");
+a_tuple to JDBCPublish(out, "INSERT into jdbcResults VALUES(?, ?, ?)");
+s_tuple to JDBCPublish(out, "INSERT into jdbcResults VALUES(?, ?, ?)");
+
+/* Disabled becasue JDBC does not have named parameters
+v_nested to JDBCPublish(out, "INSERT into jdbcResults VALUES(?3, ?2, ?1)");
+a_nested to JDBCPublish(out, "INSERT into jdbcResults VALUES(?3, ?2, ?1)");
+s_nested to JDBCPublish(out, "INSERT into jdbcResults VALUES(?3, ?2, ?1)");
+*/

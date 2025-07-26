@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ilog.odms.ide.rcp.feature.nls1"
+      label="%Feature-Name"
+      version="22.1.2.202412101712"
+      provider-name="%Feature-Vendor">
+
+   <includes
+         id="ilog.odms.ide.opl.feature.nls1"
+         version="22.1.2.202412101712"/>
+
+ 
+   <plugin
+         id="ilog.odms.ide.rcp.nl1"
+         download-size="29"
+         install-size="49"
+         version="22.1.2.202412101712"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

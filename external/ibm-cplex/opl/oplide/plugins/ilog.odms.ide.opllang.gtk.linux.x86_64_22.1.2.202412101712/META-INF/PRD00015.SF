@@ -1,0 +1,30 @@
+Signature-Version: 1.0
+Created-By: 17.0.9 (IBM Corporation)
+SHA-256-Digest-Manifest: FyS94BwhkG+saDkNjCivae13GYcX10XSI6yoF3C5cBA=
+SHA-256-Digest-Manifest-Main-Attributes: 9LfzlmdRLwSHKjjsQTb79eITPz6EF0E
+ xl9kx5AuC4vk=
+
+Name: libopltabMySQL2212.so
+SHA-256-Digest: 9+ih2Frkcuiuj8bUOeQcxVeGzhdiqP5s4a8Y8+vlGSU=
+
+Name: about.html
+SHA-256-Digest: 6O6HfPYpxfWobTM24AsLXKo6UUqElggupWpTOlVH018=
+
+Name: libcplex2212.so
+SHA-256-Digest: eGaANJTEJFVMQam2H5Ju5SYY/5lIsCIU+Z89Tj4PQ7I=
+
+Name: libopltabSQLite2212.so
+SHA-256-Digest: EUlnNw50L1IKGZCbQrjyrVpdXAhiGte6cknB+LJJzFw=
+
+Name: fragment.properties
+SHA-256-Digest: 9F5HeMQr+1pMEeX3SAYn8bk51oSqoN6Z+hqxneEfyHo=
+
+Name: libopl2212.so
+SHA-256-Digest: eoyiQdXSvgYJm7wpvhz28hR8J7kkIbvwF4aJUyVoWL4=
+
+Name: libopltabODBC2212.so
+SHA-256-Digest: BYVqWuFsGx5CextzpUom7bRKjXXvo33rXQ7fp7WQWxc=
+
+Name: liboplb.so
+SHA-256-Digest: bMPFG49YKUURRgI1YEINt/LWVWCE8VOANQTSXk0FhMo=
+

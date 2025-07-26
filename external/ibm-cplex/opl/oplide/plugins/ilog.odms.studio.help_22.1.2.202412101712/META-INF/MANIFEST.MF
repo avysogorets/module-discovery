@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-Name: %Bundle-Name
+Bundle-Vendor: %Bundle-Vendor
+Bundle-ActivationPolicy: lazy
+Bundle-SymbolicName: ilog.odms.studio.help; singleton:=true
+Bundle-Version: 22.1.2.202412101712
+Eclipse-BundleShape: dir
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: contexts.xml
+SHA-256-Digest: cO4IuXnBrz+Mj7gWVOan4kP+dO0tSepLOW/OIgt3ia8=
+
+Name: about.html
+SHA-256-Digest: kris/Uzx/f1v/zmaHMn/K0Ypke4x/LgsBpDzfdjmhR0=
+
+Name: plugin.xml
+SHA-256-Digest: Mf1C3+uhHUZPrQKXbRbQ7oiA7+mNgUwxOg0h76bafHg=
+
+Name: resources/ibm-logo-white.gif
+SHA-256-Digest: wJ8AAnZyREjL3AEejvmuRrt1IcAZEsFr9Q9XZBgrOIQ=
+
+Name: resources/e_show_all.gif
+SHA-256-Digest: YvYgbRZdhi4iYoRDr6ZYcYBHBlVjEVKECkgB7ZlYA+A=
+
+Name: resources/e_synch_toc_nav.gif
+SHA-256-Digest: SFCXouFWOQCvHhDqZi6IGFcHVGjqa8w8EEB/5NGY0sM=
+
+Name: doc.zip
+SHA-256-Digest: dpqqhLNZKMV0gmlIvG2afMb/BhJty9AZjnqSx070jwc=
+
+Name: help_home.html
+SHA-256-Digest: iCLDuYhAkRcIoy4uWV4G5cj35XM5YzDmghmbK0sxq5A=
+
+Name: resources/book.css
+SHA-256-Digest: lNnZBT2Vqnm/zzcrJvtSzLnbJf8adeeNMPd/mAySzi4=
+
+Name: resources/cpy.gif
+SHA-256-Digest: eoe+oMntuFm1BGTzwN/XuxkQQYlFiGUrddu4cvwUZFc=
+
+Name: resources/e_synch_nav.gif
+SHA-256-Digest: G7QTzL71Sea1eF7NyCRWOGahnm5z0/00vdSMqtLpdx8=
+
+Name: resources/contents_view.gif
+SHA-256-Digest: 40h4o5eTf+SuCjCdCBOKHcIR8h0cCTFpBDLsZ1HqKS8=
+
+Name: index.xml
+SHA-256-Digest: GLNOcr2dFheHzRl5JV+0bgh/Kb9+i7dwy1pl3qx3v4Y=
+
+Name: toc.xml
+SHA-256-Digest: s3YMD2E+47JLaEPAAo9mvqcmX7pYK8t2zcLNFct+Q4w=
+
+Name: plugin.properties
+SHA-256-Digest: xe5pXjiBtOyW5Z6BKDGicwsiSMCqUw76qGSNoMVyIy4=
+
+Name: resources/search_results_view.gif
+SHA-256-Digest: q1b3QkqiGyXo0p3aX3adsGSUeNcxNtWpDmeyX57pH30=
+

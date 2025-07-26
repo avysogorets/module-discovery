@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A routing problem involving a truck and a drone, Constraint Programming</description>
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="sched_truck_drone_n11.dat" type="data"/>
+      <ref name="sched_truck_drone.mod" type="model"/>
+    </config>
+  </configs>
+</project>

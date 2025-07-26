@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: %Fragment-Name
+Bundle-SymbolicName: ilog.odms.ide.opllang.gtk.linux.x86_64;singleton:=t
+ rue
+Bundle-Version: 22.1.2.202412101712
+Fragment-Host: ilog.odms.ide.opllang
+Eclipse-PlatformFilter: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86_
+ 64))
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Localization: fragment
+Bundle-ClassPath: .
+Bundle-NativeCode: liboplb.so;processor=x86_64;osname=Linux
+Eclipse-BundleShape: dir
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+Name: libopltabMySQL2212.so
+SHA-256-Digest: Xl9NcNvz66JjMOi2d6kYMyYNGn/nz+q/tbymjzDSa0Y=
+
+Name: about.html
+SHA-256-Digest: eEYNij7+2zSqbca5hN9r2tyQinuKQ6uFqyQLk6wMgWQ=
+
+Name: libcplex2212.so
+SHA-256-Digest: 8E7apEobnTh7VhbHb0chLj6Axw6SmLyhbHMjDTrfoRM=
+
+Name: libopltabSQLite2212.so
+SHA-256-Digest: V0aO+DLQ9AyVi+z3LNCdxdwmGw09I3ws4f7vi+uK5yA=
+
+Name: fragment.properties
+SHA-256-Digest: Yric1ZKOPBXgNdCHYbmh4nAqwSKESJKSTSWZ8I/TdNE=
+
+Name: libopl2212.so
+SHA-256-Digest: 4ScbsnGBTyBj3AZxNiRMKCXUay4O5yTiLitMJfywVlc=
+
+Name: libopltabODBC2212.so
+SHA-256-Digest: 3sc5lOmAI6JGujJTbyA/qI3jClxK+MpxHmhIZA0l67c=
+
+Name: liboplb.so
+SHA-256-Digest: v6lcyltM013XaMNU6/Q0kNXeRNRyrKJtJJTa9ChWCU8=
+

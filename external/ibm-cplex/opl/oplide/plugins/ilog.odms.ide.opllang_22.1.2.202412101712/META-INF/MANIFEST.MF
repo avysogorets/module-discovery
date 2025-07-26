@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: ilog.odms.ide.opllang;singleton:=true
+Bundle-Version: 22.1.2.202412101712
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Localization: plugin
+Export-Package: ilog.concert,ilog.concert.cppimpl,ilog.cp,ilog.cp.cppimp
+ l,ilog.cplex,ilog.cplex.cppimpl,ilog.odms.ide.opllang,ilog.odms.ide.opl
+ lang.annotation,ilog.odms.ide.opllang.bridge.util,ilog.odms.ide.opllang
+ .multiplex,ilog.odms.ide.opllang.osgi,ilog.odms.ide.opllang.remote.mbea
+ n,ilog.odms.ide.opllang.run,ilog.odms.ide.opllang.run.comm,ilog.opl,ilo
+ g.opl_core.cppimpl
+Bundle-Activator: ilog.odms.ide.opllang.IloOplLangPlugin
+Require-Bundle: org.eclipse.core.runtime,ilog.odms.ide.opllang.interface
+ s
+Eclipse-BuddyPolicy: dependent
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: ilog.odms.ide.opllang.jar,oplall.jar,.,external:$jdbc_
+ driver$
+Eclipse-BundleShape: dir
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+Name: about.html
+SHA-256-Digest: CPK5ZmdzDzBpYUTEH4nA03mLzVGxtM9M7ezGt3gB4Ww=
+
+Name: oplall.jar
+SHA-256-Digest: k7Uk+o4dL2vBUaGQYmPOBJm6xwIWHTh0f6Lkl1JNoRA=
+
+Name: ilog.odms.ide.opllang.jar
+SHA-256-Digest: OXin0VNYcBuI9s0B4yfoBWaWpsvEz9ts/rEGs5QPFDE=
+
+Name: plugin.properties
+SHA-256-Digest: 2jXqJ8K/dx2I/kJOzPkEUdS8wIJh4JCj/gzFPGR/QGw=
+

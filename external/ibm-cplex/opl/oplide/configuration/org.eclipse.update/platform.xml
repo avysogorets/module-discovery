@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1733853508141" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="ilog.odms.ide.opl.feature" version="22.1.2.202412101712" url="features/ilog.odms.ide.opl.feature_22.1.2.202412101712/" plugin-identifier="ilog.odms.ide.opl">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_it" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_it_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_it" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_it_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_es" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_es_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_zh" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_zh_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient5.feature" version="1.1.702.v20240808-1900" url="features/org.eclipse.ecf.filetransfer.httpclient5.feature_1.1.702.v20240808-1900/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_ko" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_ko_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.1900.v20240812-1535" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1900.v20240812-1535/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_ja" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_ja_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_ja" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_ja_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.equinox.executable" version="3.8.2600.v20240722-2106" url="features/org.eclipse.equinox.executable_3.8.2600.v20240722-2106/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_zh_TW" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_zh_TW_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_pl" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_pl_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_zh_TW" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_zh_TW_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_tr" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_tr_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_es" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_es_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_zh" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_zh_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.wst.jsdt.feature" version="2.4.500.v202307190318" url="features/org.eclipse.wst.jsdt.feature_2.4.500.v202307190318/" plugin-identifier="org.eclipse.wst.jsdt.ui">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.4.2500.v20240812-2151" url="features/org.eclipse.equinox.p2.user.ui_2.4.2500.v20240812-2151/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.7.300.v20240801-1024" url="features/org.eclipse.equinox.p2.core.feature_1.7.300.v20240801-1024/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_fr" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_fr_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_fr" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_fr_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_de" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_de_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="ilog.odms.ide.opl.feature.nls1" version="22.1.2.202412101712" url="features/ilog.odms.ide.opl.feature.nls1_22.1.2.202412101712/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.33.0.v20240903-0618" url="features/org.eclipse.e4.rcp_4.33.0.v20240903-0618/">
+		</feature>
+		<feature id="ilog.odms.ide.wml.feature" version="22.1.2.202412101712" url="features/ilog.odms.ide.wml.feature_22.1.2.202412101712/">
+		</feature>
+		<feature id="ilog.odms.ide.opl.feature.nls2" version="22.1.2.202412101712" url="features/ilog.odms.ide.opl.feature.nls2_22.1.2.202412101712/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_pt_BR" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_pt_BR_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.platform" version="4.33.0.v20240903-0618" url="features/org.eclipse.platform_4.33.0.v20240903-0618/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_it" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_it_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_es" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_es_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_zh" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_zh_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.help" version="2.3.1900.v20240903-0240" url="features/org.eclipse.help_2.3.1900.v20240903-0240/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_ko" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_ko_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_ko" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_ko_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.402.v20240812-1535" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.402.v20240812-1535/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_ja" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_ja_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_pl" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_pl_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_pl" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_pl_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_tr" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_tr_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.2500.v20240812-2151" url="features/org.eclipse.equinox.p2.extras.feature_1.4.2500.v20240812-2151/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.2500.v20240801-1024" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.2500.v20240801-1024/">
+		</feature>
+		<feature id="ilog.odms.ide.wml.feature.nls1" version="22.1.2.202412101712" url="features/ilog.odms.ide.wml.feature.nls1_22.1.2.202412101712/">
+		</feature>
+		<feature id="ilog.odms.ide.wml.feature.nls2" version="22.1.2.202412101712" url="features/ilog.odms.ide.wml.feature.nls2_22.1.2.202412101712/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.6.2.v20240812-1535" url="features/org.eclipse.ecf.core.feature_1.6.2.v20240812-1535/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_pt_BR" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_pt_BR_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_zh_TW" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_zh_TW_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_fr" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_fr_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.600.v20240812-1535" url="features/org.eclipse.ecf.core.ssl.feature_1.1.600.v20240812-1535/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_de" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_modeling.emf_de_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_tr" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_tr_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_de" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_webtools_de_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_pt_BR" version="4.26.0.v20230220105658" url="features/org.eclipse.babel.nls_eclipse_pt_BR_4.26.0.v20230220105658/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.33.0.v20240903-0618" url="features/org.eclipse.rcp_4.33.0.v20240903-0618/">
+		</feature>
+		<feature id="ilog.odms.ide.rcp.feature" version="22.1.2.202412101712" url="features/ilog.odms.ide.rcp.feature_22.1.2.202412101712/">
+		</feature>
+		<feature id="ilog.odms.ide.product.feature" version="22.1.2.202412101712" url="features/ilog.odms.ide.product.feature_22.1.2.202412101712/">
+		</feature>
+		<feature id="ilog.odms.ide.rcp.feature.nls2" version="22.1.2.202412101712" url="features/ilog.odms.ide.rcp.feature.nls2_22.1.2.202412101712/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclientjava.feature" version="2.0.200.v20240808-1900" url="features/org.eclipse.ecf.filetransfer.httpclientjava.feature_2.0.200.v20240808-1900/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.38.0.v20240721-0802" url="features/org.eclipse.emf.ecore_2.38.0.v20240721-0802/">
+		</feature>
+		<feature id="ilog.odms.ide.rcp.feature.nls1" version="22.1.2.202412101712" url="features/ilog.odms.ide.rcp.feature.nls1_22.1.2.202412101712/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.32.0.v20240731-0952" url="features/org.eclipse.emf.common_2.32.0.v20240731-0952/">
+		</feature>
+	</site>
+</config>

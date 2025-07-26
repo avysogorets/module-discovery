@@ -1,0 +1,4 @@
+-e #ifndef __CBCONFIG_HXX__
+-e #define __CBCONFIG_HXX__
+-e #define CONICBUNDLE_DEBUG 1
+-e #endif

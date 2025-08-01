@@ -63,6 +63,7 @@ class DITC(ModulerBase):
         D = self.get_KLD(P_comm=P_comm)
         D_weighted = self.P_marg[:,None] * D
         node_to_C_oh = F.one_hot(self.node_to_C, num_classes=target_comms)
+        node_to_C_oh = node_to_C_oh.to(self.device)
         loss = node_to_C_oh * D_weighted
         return loss.sum().item()
 
@@ -74,6 +75,7 @@ class DITC(ModulerBase):
 
     def get_P_comm(self, target_comms):
         node_to_C_oh = F.one_hot(self.node_to_C, num_classes=target_comms)
+        node_to_C_oh = node_to_C_oh.to(self.device)
         p_marg_k = (node_to_C_oh.T * self.P_marg[None, :]).sum(dim=1)
         P_comm = self.P_cond @ (node_to_C_oh * self.P_marg[:, None])
         P_comm /= p_marg_k[None, :]

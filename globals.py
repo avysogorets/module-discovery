@@ -54,20 +54,25 @@ TEMPLATE_FEATURES = ['self', 'beginning', 'prev', 'next', 'ids']
 #  [][s-, d-] Embeddings (EVERY LAYER and -2) L2 [norm: NA]
 #  [][s+, d-] Embeddings (EVERY LAYER and -2) cosine [norm: NA, neg: NA/clamp]
 #  [][s-, d+] DecompX (EVERY LAYER and -2) vector norm [norm: None/freq, corr: None/C/Ccls/Ceye]
-#  None/None: OK
-#  freq/None: OK
-#  None/C: 64141737--64141748
-#  freq/C: 64141807--64141820
-#  None/Ccls: 
-#  freq/Ccls:
-#  None/Ceye: 64141824--64141835
-#  freq/Ceye: 64141842--64141853
-#  [][s-, d+] DecompX (EVERY LAYER and -2) rollout norm
+#  [][s-, d+] DecompX (EVERY LAYER and -2) rollout norm [norm: None/freq, corr: None/C/Ccls/Ceye]
+#  None/None: 64258864--64258875
+#  None/C: 64258894--64258905
+#  None/Ccls: 64258949--64258960
+#  None/Ceye: 64259008--64259019
+#  freq/None: 64258880--64258891
+#  freq/C: 64258909--64258920
+#  freq/Ccls: 64258922--64258933
+#  freq/Ceye: 64258935--64258946
 #  [][s+, d-] DecompX (EVERY LAYER and -2) vector angle 
+#  [][s-, d-] DecompX (EVERY LAYER and -2) PBacc vector norm: 64258848--64258859
 #  [][s-, d+] Raw (EVERY LAYER and -2)
 #  [][s+, d-] Raw PBAcc (EVERY LAYER and -2)
 #  [][s+, d-] Rollout PBAcc (EVERY LAYER and -2)
 #  [][s-, d+] Rollout (EVERY LAYER and -2)
+#   DITC supervised 
+#   InformationBottleneck supervised LOW-GPU
+#   DITC
+#   InformationBottleneck LOW-GPU
 
 # BERT + SST2 + NONE
 #   DecompX (EVERY LAYER and -2) vector norm
@@ -76,10 +81,15 @@ TEMPLATE_FEATURES = ['self', 'beginning', 'prev', 'next', 'ids']
 #   Embeddings (EVERY LAYER and -2) L2
 #   Embeddings (EVERY LAYER and -2) cosine
 #   Embeddings (EVERY LAYER and -2) PBAgg cosine
-#   Embeddings (EVERY LAYER and -2) PBAgg L2 (63953114-63953125) 63953116_2 63953117_0, 63953118, ...
+#   Embeddings (EVERY LAYER and -2) PBAgg L2 (some OOMs)
 #   Raw (EVERY LAYER and -2)
 #   Raw PBAcc (EVERY LAYER and -2)
 #   Rollout PBAcc (EVERY LAYER and -2)
 #   Rollout (EVERY LAYER and -2)
+#   DITC supervised
+#   InformationBottleneck supervised
+#   DITC
+#   InformationBottleneck
+
 
 

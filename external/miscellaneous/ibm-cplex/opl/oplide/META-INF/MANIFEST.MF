@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Created-By: 17.0.9 (IBM Corporation)
-
-Name: icon.xpm
-SHA-256-Digest: uwDXkakUnJ8cOlZMx+3mM99xdSq/AwvQCLjEEDK2apQ=
-
-Name: oplide
-SHA-256-Digest: 0yP9WI3BlPSOM+8th7uY8YQVwj9SCuT58gSsozQ6DLs=
-
